@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80.06" height="43" viewBox="0 0 80.06 43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8f9fb;
+        fill-opacity: 0;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1163" y="524" width="80.06" height="43" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff3f0"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Rounded_Rectangle_89_copy" data-name="Rounded Rectangle 89 copy" class="cls-1" d="M1179.5,524h47a16.5,16.5,0,0,1,16.5,16.5V567s2.27-10-20-10h-43.5A16.5,16.5,0,0,1,1179.5,524Z" transform="translate(-1163 -524)"/>
+</svg>

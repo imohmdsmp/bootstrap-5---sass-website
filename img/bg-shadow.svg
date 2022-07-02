@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1170" height="115" viewBox="0 0 1170 115">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        opacity: 0.04;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="1170" height="115" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#2d365d"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect id="shadow_copy_5" data-name="shadow copy 5" class="cls-1" width="1170" height="115"/>
+</svg>
