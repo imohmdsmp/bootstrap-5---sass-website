@@ -312,6 +312,13 @@ li {
   min-height: 580px;
 }
 
+.hover-btn {
+  transition: 0.4s;
+}
+.hover-btn:hover {
+  color: #ec476f;
+}
+
 .bg-gray-two-sec {
   top: -315px;
 }
@@ -397,6 +404,10 @@ li {
   border-radius: 13px;
   font-size: 22px;
   position: relative;
+  transition: 0.4s;
+}
+.shoppbag:hover {
+  background-color: #00d154;
 }
 
 .bg-article {

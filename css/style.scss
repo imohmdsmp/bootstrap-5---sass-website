@@ -96,6 +96,8 @@ li {
 }
 
 
+
+
 // background  
 .bg-lightgray {
     background-color: $lightGray !important;
@@ -369,6 +371,13 @@ li {
 // another
 
 
+.hover-btn{
+    transition: 0.4s;
+    &:hover{
+        color:$pink;
+    }
+}
+
 
 .bg-gray-two-sec{
     top: -315px;
@@ -461,6 +470,10 @@ li {
     border-radius: 13px;
     font-size: 22px;
     position: relative;
+    transition: 0.4s;
+    &:hover{
+        background-color: #00d154;
+    }
 }
 
 .bg-article {
