@@ -1,6 +1,6 @@
 @font-face {
   font-family: iransans;
-  src: url(../IRANSans/IRANSans\(FaNum\)_Medium.ttf);
+  src: url(../IRANSans/IRANSans_Light.ttf);
 }
 body {
   font-family: iransans;
@@ -216,6 +216,10 @@ li {
   padding-right: 100px !important;
 }
 
+.mw-700{
+  max-width: 700px;
+}
+
 .mw-101 {
   max-width: 101px;
 }
@@ -267,13 +271,22 @@ li {
 .w-125-p {
   width: 125px;
 }
+.w-100-p {
+  width: 125px;
+}
 
 .h-70-p {
   height: 70px;
 }
+.h-150-p {
+  height: 150px;
+}
 
 .w-300 {
   width: 300px;
+}
+.w-310 {
+  width: 310px;
 }
 
 .h-50-p {
@@ -310,13 +323,6 @@ li {
 
 .min-h-580 {
   min-height: 580px;
-}
-
-.hover-btn {
-  transition: 0.4s;
-}
-.hover-btn:hover {
-  color: #ec476f;
 }
 
 .bg-gray-two-sec {
@@ -404,10 +410,6 @@ li {
   border-radius: 13px;
   font-size: 22px;
   position: relative;
-  transition: 0.4s;
-}
-.shoppbag:hover {
-  background-color: #00d154;
 }
 
 .bg-article {
@@ -502,8 +504,8 @@ li {
   position: absolute;
   bottom: -50px;
   border-radius: 0 0 20px 20px;
-  width: 65%;
-  left: 86px;
+  width: 68%;
+  left: 73px;
   color: #dcdcdc;
   font-size: 10px;
   height: 50px;
@@ -589,13 +591,15 @@ li {
   right: 45px !important;
 }
 
-.myCammercial > div:nth-of-type(1) {
-  left: 50%;
-  transform: translatex(-50%);
-}
+
 
 .form-control:focus {
   box-shadow: none;
+}
+
+
+.translate-y-50{
+  transform: translateY(-50%);
 }
 
 .nav-pills .nav-link.active,
@@ -631,7 +635,7 @@ header:nth-of-type(1) {
 }
 
 .navbar {
-  transform: translateZ(-1px);
+  transform: translateZ(0);
 }
 
 header .nav-item > .nav-link {
@@ -672,6 +676,11 @@ header .nav-item > .nav-link > i {
   margin-bottom: 8px;
 }
 
+.col-auto>.bg-logo+a{
+  position: relative;
+  z-index: 2;
+}
+
 .bg-logo {
   position: absolute;
   top: -25px;
@@ -679,7 +688,7 @@ header .nav-item > .nav-link > i {
   width: 100%;
   height: 233px;
   background-image: linear-gradient(#efeafd, white);
-  z-index: -1;
+  z-index: 1;
   box-shadow: -25px 0 0 3px white;
 }
 
@@ -793,3 +802,4 @@ header .nav-item > .nav-link > i {
   border-radius: 11px;
   margin-top: 15px;
 }/*# sourceMappingURL=style.css.map */
+
